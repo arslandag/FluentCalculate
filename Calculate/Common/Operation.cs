@@ -29,9 +29,9 @@ public class Operation
     {
         switch (_type)
         {
-            case OperationType.Add:
+            case OperationType.Plus:
                 return _value + operand;
-            case OperationType.Subtract:
+            case OperationType.Minus:
                 return _value - operand;
             case OperationType.Multiply:
                 return _value * operand;

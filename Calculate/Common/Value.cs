@@ -9,8 +9,8 @@ public class Value
         _value = value;
     }
 
-    public Operation Plus => new Operation(_value, OperationType.Add);
-    public Operation Minus => new Operation(_value, OperationType.Subtract);
+    public Operation Plus => new Operation(_value, OperationType.Plus);
+    public Operation Minus => new Operation(_value, OperationType.Minus);
     public Operation Times => new Operation(_value, OperationType.Multiply);
     public Operation DividedBy => new Operation(_value, OperationType.Divide);
 

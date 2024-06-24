@@ -2,8 +2,8 @@ namespace Calculate.Common;
 
 public enum OperationType
 {
-    Add,
-    Subtract,
+    Plus,
+    Minus,
     Multiply,
     Divide
 }
